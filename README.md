@@ -1,34 +1,24 @@
-# 🏦 Banking Sales Dashboard
+# 💼 Banking Sales Dashboard
 
-This project is a basic yet insightful data analysis dashboard for a simulated banking sales dataset. It’s designed to showcase beginner-level skills in Python, data analysis, and visualization.
+A data analysis project using Python to explore and visualize banking product sales performance across different regions and products.
 
-## 📊 Tools Used
-- Python
-- Numpy
-- Pandas
-- Matplotlib
+## 📁 Files Included
+- `sales_analysis.ipynb`: Jupyter Notebook with all code, graphs, and insights.
+- `sales_data.xlsx`: Excel dataset used in the analysis.
+- `README.md`: Overview of the project.
+
+## 📊 Key Insights
+- 🟢 **Loan** is the top revenue-generating product.
+- 📍 **East region** outperforms others in total revenue and average revenue per unit.
+- 💡 Regional pricing strategies can be optimized based on unit revenue performance.
+
+## 🛠 Tools Used
+- Python (Pandas, Matplotlib, NumPy)
 - Jupyter Notebook
+- Excel
 
-## 🧠 Key Insights
-- Identified top-performing banking products by total revenue
-- Analyzed regional sales distribution using pie charts
-- Identified top performing region by total revenue vs average revenue per sale
-- Observed monthly revenue trends
-
-## 📂 Files
-- `banking_sales_analysis.ipynb`: Main notebook containing all analysis
-- `sales_data.csv`: Dataset used for the project
-- `README.md`: Project summary
-
-## 📌 Objective
-As a finance professional transitioning into data analysis, this project demonstrates my ability to:
-- Clean and explore data
-- Extract and visualize meaningful insights
-- Communicate business-relevant outcomes
-
-## 🚀 Future Improvements
-- Add interactive filters using Dash or Streamlit
-- Build predictive models for sales forecasting
-- Connect to a live SQL database
-
-*Feel free to star 🌟 the repo if you find this useful!*
+## ▶️ How to Run
+1. Clone this repo
+2. Open `sales_analysis.ipynb` in Jupyter Notebook
+3. Ensure `sales_data.xlsx` is in the same folder
+4. Run all cells to reproduce the analysis and charts
